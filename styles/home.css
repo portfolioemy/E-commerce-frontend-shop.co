@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 3.1vh 5vw 2vh 7vw;;
+    gap: 2.3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    gap: 0px;
+    font-family: 'Integral CF', Arial, sans-serif;
+    font-size: 2.2rem; 
+    font-weight: 900; 
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: .8rem;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Satoshi', Arial, sans-serif;
+    font-size: 1.1rem; 
+    font-weight: 400;
+    text-align: center; 
+    background-color: #fff;
+    padding: .5vw;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 1vh 1vw;
+    background-color: #F0F0F0;
+    border-radius: 2.4rem; 
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1); 
+}
+
+#input {
+    font-size: 1rem; 
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 2.4rem; 
+    background-color: #F0F0F0;
+}
+
+.search {
+    margin-left: 1.2rem;
+    color: #F0F0F0;
+}
+
+.search:hover {
+    color: #F0F0F0;
+    cursor: pointer;
+}
+
+.search-icon {
+    margin-right: .8rem; 
+    color: #d4cfcf;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.icon-container {
+    display: flex;
+    gap: 1vw;
+    padding: 1vw;
+}
+@font-face {
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Integral CF'), url('/assets/fonts/IntegralCF/Fontspring-DEMO-integralcf-bold.otf') format('otf'),
+         url('/assets/fonts/IntegralCF/Fontspring-DEMO-integralcf-boldoblique.otf') format('otf');
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satoshi'), url('/assets/fonts/Satoshi/Fonts/OTF/Satoshi-Black.otf') format('otf'),
+         url('/assets/fonts/Satoshi/Fonts/OTF/Satoshi-Bold.otf') format('otf');
+  }
+  .dropbtn {
+    background-color: #fff;
+    color: #000;
+    padding: .5vw;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+  }
+  
+  .dropbtn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropbtn:hover:after {
+    opacity: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #f9f9f9;
+  }
+
+  
+/* Media queries for responsiveness */
+
+/* Adjust header padding and font sizes for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 3vh 5vw;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Adjust search input width for smaller screens */
+@media screen and (max-width: 576px) {
+    #search {
+        max-width: 90vw;
+    }
+}
