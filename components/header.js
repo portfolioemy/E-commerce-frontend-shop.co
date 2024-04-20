@@ -1,7 +1,7 @@
 function getHeader(){
 
 const navigationElements=[
-    {name:'shop',link:'#',subNav:[{name:'shop1',link:'#'}]},
+    {name:'Shop',link:'#',subNav:[{name:'shop1',link:'#'}]},
     {name:'On Sale',link:'#'},
     {name:'New Arrivals',link:'#'},
     {name:'Brands',link:'#'},
