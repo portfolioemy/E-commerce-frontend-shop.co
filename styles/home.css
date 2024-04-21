@@ -255,6 +255,12 @@ nav ul li a {
   border-left: 1px solid #ccc;
   height: 12vh;
 }
+.logo-banner{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 6vh 7vw;
+}
 
 /* Media queries for responsiveness */
 
