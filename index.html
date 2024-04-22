@@ -1,144 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>E-commerce-frontend-SHOP.CO</title>
+    <link rel="stylesheet" href="styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQq7Ml8WsgGqQYGK397X7miq'zltx/QTYWg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="./components/header.js"></script>
+    <script src="./components/cards/ProductCard.js"></script>
+    <script src="./components/cards/ProductListCard.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>E-commerce-frontend-SHOP.CO</title>
-  <link rel="stylesheet" href="styles/home.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQq7Ml8WsgGqQYGK397X7miq'zltx/QTYWg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <script src="./components/header.js"></script>
-</head>
-
-<body>
-  <script>
-    getHeader();
-  </script>
-  <section class="hero">
-    <div class="hero-text">
-      <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-      <p>
-        Browse through our diverse range of meticulously crafted garments,
-        designed to bring out your individuality and cater to your sense of
-        style.
-      </p>
-      <a href="#" class="cta-btn">Shop Now</a>
-    </div>
-    <div class="shop-categories">
-      <div class="category">
-        <span class="category-number">200+</span>
-        <span class="category-name">International Brands</span>
+  <body>
+    <script>
+      getHeader();
+    </script>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+        <p>
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </p>
+        <a href="#" class="cta-btn">Shop Now</a>
       </div>
-      <div class="vl"></div>
-      <div class="category">
-        <span class="category-number">2,000+</span>
-        <span class="category-name">High-Quality Products</span>
-      </div>
-      <div class="vl"></div>
-      <div class="category">
-        <span class="category-number">30,000+</span>
-        <span class="category-name">Happy Customers</span>
-      </div>
-    </div>
-  </section>
-  <section class="logo-banner">
-    <a href="#"><img src="./assets/images/Group.png" alt="Versace" /></a>
-    <a href="#"><img src="./assets/images/zara-logo-1 1.png" alt="Zara" /></a>
-    <a href="#"><img src="./assets/images/gucci-logo-1 1.png" alt="Gucci" /></a>
-    <a href="#"><img src="./assets/images/prada-logo-1 1.png" alt="Prada" /> </a>
-    <a href="#"><img src="./assets/images/Group (1).png" alt="Calvin Klein" /> </a>
-  </section>
-  <section class="new-arrivals">
-    <h2>NEW ARRIVALS</h2>
-    <div class="arrivals-items">
-      <div class="item">
-        <a href="#"><img src="./assets/images/image 7.png" alt="T-Shirt" /></a>
-        <p>T-SHIRT WITH TAPE DETAILS</p>
-        <div class="rating-container">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating-number">4.5/5</div>
+      <div class="shop-categories">
+        <div class="category">
+          <span class="category-number">200+</span>
+          <span class="category-name">International Brands</span>
         </div>
-        <div class="price-container">
-          <div class="actual-price">$120</div>
-          <div class="real-price"></div>
-          <div class="reduction"></div>
+        <div class="vl"></div>
+        <div class="category">
+          <span class="category-number">2,000+</span>
+          <span class="category-name">High-Quality Products</span>
+        </div>
+        <div class="vl"></div>
+        <div class="category">
+          <span class="category-number">30,000+</span>
+          <span class="category-name">Happy Customers</span>
         </div>
       </div>
-      <div class="item">
-        <a href="#"><img src="./assets/images/Frame 33.png" alt="Jeans" /></a>
-        <p>SKINNY FIT JEANS</p>
-        <div class="rating-container">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating-number">4.5/5</div>
-        </div>
-
-        <div class="price-container">
-          <div class="actual-price">$240</div>
-          <div class="real-price">$260</div>
-          <div class="reduction active">-20%</div>
-        </div>
-
-      </div>
-      <div class="item">
-        <a href="#"><img src="./assets/images/Frame 34.png" alt="Shirt" /></a>
-        <p>CHECKERED SHIRT</p>
-        <div class="rating-container">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating-number">4.5/5</div>
-        </div>
-
-        <div class="price-container">
-          <div class="actual-price">$120</div>
-          <div class="real-price"></div>
-          <div class="reduction"></div>
-        </div>
-
-      </div>
-      <div class="item">
-        <a href="#"><img src="./assets/images/Frame 38.png" alt="T-Shirt" /></a>
-        <p>SLEEVE STRIPED T-SHIRT</p>
-        <div class="rating-container">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="rating-number">4.5/5</div>
-        </div>
-
-        <div class="price-container">
-          <div class="actual-price">$120</div>
-          <div class="real-price"></div>
-          <div class="reduction"></div>
-        </div>
-      </div>
-    </div>
-    <button class="view-all">View All</button>
-  </section>
-</body>
-
+    </section>
+    <section class="logo-banner">
+      <a href="#"><img src="./assets/images/Group.png" alt="Versace" /></a>
+      <a href="#"><img src="./assets/images/zara-logo-1 1.png" alt="Zara" /></a>
+      <a href="#"
+        ><img src="./assets/images/gucci-logo-1 1.png" alt="Gucci"
+      /></a>
+      <a href="#"
+        ><img src="./assets/images/prada-logo-1 1.png" alt="Prada" />
+      </a>
+      <a href="#"
+        ><img src="./assets/images/Group (1).png" alt="Calvin Klein" />
+      </a>
+    </section>
+    <section class="new-arrivals">
+      <script>
+            const items = [
+        {
+          img: "./assets/images/image 7.png",
+          name: "T-SHIRT WITH TAPE DETAILS",
+          price: "$120",
+        },
+        {
+          img: "./assets/images/Frame 33.png",
+          name: "SKINNY FIT JEANS",
+          price: "$240",
+          realPrice: "$260",
+          reduction: "-20%",
+        },
+        {
+          img: "./assets/images/Frame 34.png",
+          name: "CHECKERED SHIRT",
+          price: "$120",
+        },
+        {
+          img: "./assets/images/Frame 38.png",
+          name: "SLEEVE STRIPED T-SHIRT",
+          price: "$120",
+        },
+      ];
+        ProductListCard(document.querySelector('.new-arrivals'),'NEW ARRIVALS',items)</script>
+    </section>
+  </body>
 </html>
