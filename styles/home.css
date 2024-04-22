@@ -98,8 +98,7 @@ nav ul li a {
   font-style: normal;
   font-weight: 400;
   src: local("Integral CF"),
-    url("../assets/fonts/IntegralCF/Fontspring-DEMO-integralcf-bold.otf")
-      format("opentype");
+    url("../assets/fonts/IntegralCF/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
 }
 
 @font-face {
@@ -107,8 +106,7 @@ nav ul li a {
   font-style: normal;
   font-weight: 400;
   src: local("Satoshi"),
-    url("../assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf")
-      format("opentype");
+    url("../assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf") format("opentype");
 }
 
 /*drop btn*/
@@ -251,16 +249,158 @@ nav ul li a {
   font-weight: bold;
   display: inline-block;
 }
+
 .vl {
   border-left: 1px solid #ccc;
   height: 12vh;
 }
-.logo-banner{
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    padding: 6vh 7vw;
+
+.logo-banner {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 6vh 7vw;
 }
+
+.new-arrivals {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrivals-items {
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 0vh 6vw 0vh 7vw;
+
+}
+
+.new-arrivals h2 {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 16.7vh;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item p {
+  margin: 2vh 0vw 1.2vh 0vw;
+  font-family: 'Satoshi';
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 4vh;
+  text-align: left;
+
+}
+
+.item img {
+  border-radius: 1.4rem;
+  width: 20.5vw;
+  height: 41vh;
+}
+
+
+.price-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1vw;
+  align-items: center;
+}
+
+.item .price-container .actual-price {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.2;
+  text-align: center;
+}
+
+.item .price-container .real-price {
+  font-family: 'Satoshi', sans-serif;
+  text-decoration: line-through;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.2;
+  text-align: center;
+  color: #888;
+}
+
+.item .price-container .reduction {
+  padding: 0.9vh 1vw;
+  border-radius: 2.4rem;
+  color: #FF3333;
+  background-color: transparent;
+  font-size: 0.8rem;
+}
+
+.item .price-container .active {
+  background-color: #f4d0d0;
+}
+
+
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0vh;
+}
+
+.stars {
+  color: #ffc107;
+  margin-right: 1vw;
+}
+
+.rating-number {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 0.9rem;
+}
+
+
+.item p.price {
+  font-family: 'Satoshi';
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 0vh;
+  text-align: left;
+
+}
+
+.view-all {
+  padding: 2vh 5.7vw;
+  border-radius: 2.4rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.1rem;
+  font-family: 'Satoshi', sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh;
+
+}
+
+.view-all:hover {
+  background-color: #888;
+}
+
+
+
+
+
 
 /* Media queries for responsiveness */
 
