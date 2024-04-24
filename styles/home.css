@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /*header styling*/
 header {
   background-color: #fff;
@@ -254,6 +255,7 @@ nav ul li a {
   border-left: 1px solid #ccc;
   height: 12vh;
 }
+
 /*logo banner*/
 .logo-banner {
   background-color: #000;
@@ -261,8 +263,10 @@ nav ul li a {
   justify-content: space-between;
   padding: 6vh 7vw;
 }
+
 /* new arrivals section style*/
-.new-arrivals,.top-selling {
+.new-arrivals,
+.top-selling {
   margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
@@ -279,7 +283,9 @@ nav ul li a {
 
 }
 
-.new-arrivals h2,.top-selling h2 {
+.new-arrivals h2,
+.top-selling h2,
+.dress-style h2 {
   font-family: 'Integral CF', sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
@@ -398,15 +404,71 @@ nav ul li a {
 }
 
 .section-divider {
-  border: 1px  solid rgb(0, 0, 0,0.1) ; 
-  
+  border: 1px solid rgb(0, 0, 0, 0.1);
+
   width: 85vw;
   margin-bottom: 0vh !important;
 }
 
+/*dress-style section*/
+.dress-style {
+  background-color: #F0F0F0;
+  margin: 6.5vh 7vw;
+  padding: 1vh 4vw;
+  border-radius: 2rem;
+}
+
+.dress-style-items {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 3vh;
+  padding-top: 1vh;
 
 
 
+}
+
+.dress-style-item {
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+}
+
+.dress-style-item h4 {
+  font-family: "Satoshi";
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin: 3vh 3vw;
+
+}
+
+.casual {
+  flex-basis: 37.5%;
+  background-image: url("../assets/images/image 11.png");
+}
+
+.formal {
+  flex-basis: 61%;
+  background-image: url("../assets/images/image 13.png");
+}
+
+
+.party {
+  flex-basis: 63%;
+
+
+  background-image: url("../assets/images/image 12.png");
+}
+
+.gym {
+  flex-basis: 36%;
+
+  background-image: url("../assets/images/image 14.png");
+}
 
 /* Media queries for responsiveness */
 
