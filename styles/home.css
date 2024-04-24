@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/*header styling*/
 header {
   background-color: #fff;
   color: #000;
@@ -109,7 +109,7 @@ nav ul li a {
     url("../assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf") format("opentype");
 }
 
-/*drop btn*/
+
 .dropbtn {
   background-color: #fff;
   color: #000;
@@ -254,16 +254,16 @@ nav ul li a {
   border-left: 1px solid #ccc;
   height: 12vh;
 }
-
+/*logo banner*/
 .logo-banner {
   background-color: #000;
   display: flex;
   justify-content: space-between;
   padding: 6vh 7vw;
 }
-
-.new-arrivals {
-  margin-bottom: 20px;
+/* new arrivals section style*/
+.new-arrivals,.top-selling {
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -279,7 +279,7 @@ nav ul li a {
 
 }
 
-.new-arrivals h2 {
+.new-arrivals h2,.top-selling h2 {
   font-family: 'Integral CF', sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
@@ -397,6 +397,12 @@ nav ul li a {
   background-color: #888;
 }
 
+.section-divider {
+  border: 1px  solid rgb(0, 0, 0,0.1) ; 
+  
+  width: 85vw;
+  margin-bottom: 0vh !important;
+}
 
 
 
