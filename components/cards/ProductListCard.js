@@ -12,6 +12,7 @@ const items = [
     img: "./assets/images/image 7.png",
     name: "T-SHIRT WITH TAPE DETAILS",
     price: "$120",
+    stars:5,
   },
   {
     img: "./assets/images/Frame 33.png",
@@ -19,16 +20,22 @@ const items = [
     price: "$240",
     realPrice: "$260",
     reduction: "-20%",
+    stars:5,
+
   },
   {
     img: "./assets/images/Frame 34.png",
     name: "CHECKERED SHIRT",
     price: "$120",
+    stars:5,
+
   },
   {
     img: "./assets/images/Frame 38.png",
     name: "SLEEVE STRIPED T-SHIRT",
     price: "$120",
+    stars:5,
+
   },
 ];
 const topSellingItems = [
@@ -38,6 +45,8 @@ const topSellingItems = [
     price: "$212",
     realPrice: "$260",
     reduction: "-20%",
+    stars:5,
+
   },
   {
     img: "assets/images/image 8.png",
@@ -45,15 +54,21 @@ const topSellingItems = [
     price: "$240",
     realPrice: "$260",
     reduction: "-20%",
+    stars:5,
+
   },
   {
     img: "assets/images/image 9.png",
     name: "LOOSE FIT BERMUDA SHORTS",
     price: "$120",
+    stars:5,
+
   },
   {
     img: "assets/images/image 10.png",
     name: "FADED SKINNY JEANS",
     price: "$120",
+    stars:5,
+
   },
 ];
