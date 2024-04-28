@@ -470,6 +470,108 @@ nav ul li a {
   background-image: url("../assets/images/image 14.png");
 }
 
+.review {
+  padding: 8vh 7vw;
+  width: 86vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review h2 {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 7.7vh;
+  margin-bottom: 5vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: solid rgba(0, 0, 0, 0.1);
+  /* width: 24vw !important; */
+  height: 24vh !important;
+  flex: 1;
+  margin: 0vh 0.4vw;
+  padding: 4.5vh 2vw;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+.reviewer h4 {
+  font-family: 'Satoshi';
+  font-size: 1.4rem;
+  color: #000;
+  margin: 0;
+}
+
+.checkmark {
+  width: 1.3vw;
+  height: 1.3vw;
+  background-color: #01AB31;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkmark i {
+  color: #fff;
+}
+
+.buttonStyle {
+  display: inline-block;
+  padding: 2vh 1vw;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5vh;
+}
+
+.buttonStyle:hover {
+  background-color: #ccc;
+}
+
+.review p {
+  font-family: "Satoshi";
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+
+
+
+
+
+
+
 /* Media queries for responsiveness */
 
 /* Adjust header padding and font sizes for smaller screens */
