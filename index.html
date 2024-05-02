@@ -27,6 +27,8 @@
   <script src="./components/header.js"></script>
   <script src="./components/cards/ProductCard.js"></script>
   <script src="./components/cards/ProductListCard.js"></script>
+  <script src="./components/cards/stars.js"></script>
+
 </head>
 
 <body>
@@ -101,7 +103,7 @@
     <div class="title-review">
       <h2>OUR HAPPY CUSTOMERS</h2>
       <div class="arrows">
-        <a href="#" class="prevButton buttonStyle" >
+        <a href="#" class="prevButton buttonStyle">
           <i class="fa-solid fa-arrow-left"></i>
         </a>
         <a href="#" class="nextButton buttonStyle">
@@ -111,122 +113,22 @@
     </div>
     </div>
     <div class="container">
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
-      <div class="review-container">
-        <div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="reviewer">
-            <h4>Sarah M.</h4>
-            <div class="checkmark"><i class="fa-solid fa-check"></i></div>
-          </div>
-          <p>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant
-            dresses, every piece I've bought has exceeded my expectations.</p>
-        </div>
-      </div>
+      <script src="./components/cards/Review.js"></script>
+      <script>reviewCard(document.querySelector(".container"))</script>
     </div>
   </section>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="./helpers/slick-1.8.1/slick/slick.min.js"></script>
   <script>
-   $(document).ready(function () {
-  $('.container').slick({
-    slidesToShow: 3,
-    prevArrow: document.querySelector(".prevButton"),
-    nextArrow: document.querySelector(".nextButton"),
-    
-  });
-});
+    $(document).ready(function () {
+      $('.container').slick({
+        slidesToShow: 3,
+        prevArrow: document.querySelector(".prevButton"),
+        nextArrow: document.querySelector(".nextButton"),
+
+      });
+    });
   </script>
 
 </body>

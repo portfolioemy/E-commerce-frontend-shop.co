@@ -4,13 +4,7 @@ function ProductCard(container, product) {
 <a href="#"><img src="${product.img}" alt="T-Shirt" /></a>
 <p>${product.name}</p>
 <div class="rating-container">
-  <div class="stars">
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-  </div>
+${starsCard(product.stars)}
   <div class="rating-number">4.5/5</div>
 </div>
 <div class="price-container">
