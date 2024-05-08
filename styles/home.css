@@ -19,7 +19,6 @@ header {
   color: #000;
   /*Miscellaneous*/
   gap: 2.3vw;
-
 }
 
 .logo {
@@ -142,7 +141,6 @@ nav ul li a {
   src: local("Satoshi"),
     url("../assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf") format("opentype");
 }
-
 
 .dropbtn {
   /*Display stuff*/
@@ -322,7 +320,7 @@ nav ul li a {
 .vl {
   /*Box model stuff*/
   height: 12vh;
-  border-left: 1px solid #ccc;
+  border-left: 0.1rem solid #ccc;
 }
 
 /*logo banner*/
@@ -353,9 +351,8 @@ nav ul li a {
   flex-wrap: nowrap;
   justify-content: space-between;
   /*Box model stuff*/
-  width: 87%;
-  padding: 0vh 6vw 0vh 7vw;
-
+  padding: 0vh 6vw 0vh 3vw;
+  gap:1.3rem;
 }
 
 .new-arrivals h2,
@@ -364,7 +361,7 @@ nav ul li a {
   /*Box model stuff*/
   margin-bottom: 2vh;
   /*Typography stuff*/
-  font-family: 'Integral CF', sans-serif;
+  font-family: "Integral CF", sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
   text-align: center;
@@ -384,13 +381,12 @@ nav ul li a {
   /*Box model stuff*/
   margin: 2vh 0vw 1.2vh 0vw;
   /*Typography stuff*/
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   font-size: 1.2rem;
   font-weight: 700;
   text-align: left;
   /*Miscellaneous*/
   line-height: 4vh;
-
 }
 
 .item img {
@@ -399,7 +395,6 @@ nav ul li a {
   height: 41vh;
   border-radius: 1.4rem;
 }
-
 
 .price-container {
   /*Display stuff*/
@@ -412,7 +407,7 @@ nav ul li a {
 
 .item .price-container .actual-price {
   /*Typography stuff*/
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   text-align: center;
@@ -422,7 +417,7 @@ nav ul li a {
 
 .item .price-container .real-price {
   /*Typography stuff*/
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   text-align: center;
@@ -439,14 +434,12 @@ nav ul li a {
   background-color: transparent;
   /*Typography stuff*/
   font-size: 0.8rem;
-  color: #FF3333;
+  color: #ff3333;
 }
 
 .item .price-container .active {
   background-color: #f4d0d0;
 }
-
-
 
 .rating-container {
   display: flex;
@@ -460,18 +453,16 @@ nav ul li a {
 }
 
 .rating-number {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-size: 0.9rem;
 }
 
-
 .item p.price {
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 0vh;
   text-align: left;
-
 }
 
 .view-all {
@@ -482,16 +473,15 @@ nav ul li a {
   /*Box model stuff*/
   margin: 3vh;
   padding: 2vh 5.7vw;
-  border: 1px solid #ccc;
+  border: 0.1rem1 solid #ccc;
   border-radius: 2.4rem;
   background-color: #fff;
   /*Typography stuff*/
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-size: 1.1rem;
   color: #000;
   /*Miscellaneous*/
   cursor: pointer;
-
 }
 
 .view-all:hover {
@@ -499,7 +489,7 @@ nav ul li a {
 }
 
 .section-divider {
-  border: 1px solid rgb(0, 0, 0, 0.1);
+  border: 0.1rem solid rgb(0, 0, 0, 0.1);
 
   width: 85vw;
   margin-bottom: 0vh !important;
@@ -511,7 +501,7 @@ nav ul li a {
   margin: 6.5vh 7vw;
   padding: 1vh 4vw;
   border-radius: 2rem;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .dress-style-items {
@@ -523,9 +513,6 @@ nav ul li a {
   padding-top: 1vh;
   /*Miscellaneous*/
   row-gap: 3vh;
-
-
-
 }
 
 .dress-style-item {
@@ -545,7 +532,6 @@ nav ul li a {
   font-size: 2.5rem;
   font-weight: 700;
   text-align: left;
-
 }
 
 .casual {
@@ -558,10 +544,8 @@ nav ul li a {
   background-image: url("../assets/images/image 13.png");
 }
 
-
 .party {
   flex-basis: 63%;
-
 
   background-image: url("../assets/images/image 12.png");
 }
@@ -574,7 +558,6 @@ nav ul li a {
 
 .review {
   padding: 8vh 7vw;
-  width: 86vw;
   display: flex;
   flex-direction: column;
 }
@@ -586,7 +569,7 @@ nav ul li a {
 }
 
 .review h2 {
-  font-family: 'Integral CF', sans-serif;
+  font-family: "Integral CF", sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 7.7vh;
@@ -600,7 +583,6 @@ nav ul li a {
   justify-content: flex-start;
   /*Miscellaneous*/
   gap: 1vw;
-
 }
 
 .review-container {
@@ -632,7 +614,7 @@ nav ul li a {
   /*Box model stuff*/
   margin: 0;
   /*Typography stuff*/
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   font-size: 1.4rem;
   color: #000;
 }
@@ -646,7 +628,7 @@ nav ul li a {
   width: 1.3vw;
   height: 1.3vw;
   border-radius: 50%;
-  background-color: #01AB31;
+  background-color: #01ab31;
 }
 
 .checkmark i {
@@ -686,9 +668,224 @@ nav ul li a {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.subscribe {
+  /* Add background color, padding, and border radius to the subscribe section */
+  background-color: #000;
+  padding: 0.7vh 4.2vw;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3vh 5.8vw 0vh 7vw;
+  position: relative;
+  z-index: 10;
+}
+
+.subscribe h2 {
+  /* Style the heading */
+  font-family: "Integral CF", sans-serif;
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 6.7vh;
+  /* margin-bottom: 6vh; */
+  flex-basis: 50%;
+}
+
+#subscribeForm {
+  /* Add padding to the form */
+  padding: 5vh 0vw;
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 21%; */
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  font-family: "Satoshi";
+  font-size: 1.1rem;
+  padding: 1vh 1vw;
+  margin-bottom: 2vh;
+  border: solid #fff;
+  border-radius: 1.5rem;
+  height: 4vh;
+  width: 22vw;
+  background-color: #fff;
+  gap: 1vw;
+}
+
+#emailInput {
+  /* Style the email input field */
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
 
 
+}
 
+#emailInput:focus-visible {
+  outline: none;
+
+}
+
+#emailInput::placeholder {
+  /* Style the placeholder text */
+  color: #ccc;
+}
+
+#envelope-icon {
+  font-size: 1.4rem;
+}
+
+#subscribeForm button {
+  /* Style the subscribe button */
+  font-family: "Satoshi";
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  /* padding: 9px 17px; */
+  border-radius: 1.5rem;
+  cursor: pointer;
+  height: 6vh;
+}
+
+#subscribeForm button:hover {
+  /* Add hover effect to the subscribe button */
+  background-color: #ccc;
+}
+
+/* footer */
+footer {
+  background-color: #F0F0F0;
+  margin: -14vh;
+  padding: 14vh;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 5.3vw 0vh 7vw;
+  gap: 1vw;
+
+}
+
+.shopco {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopco h2 {
+  font-family: "Integral CF", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3.7vh;
+  margin-bottom: 4vh;
+  text-align: left;
+
+}
+
+.shopco p {
+  margin: 0;
+  font-family: "Satoshi";
+  font-size: 0.96rem;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.socialImages {
+  margin: 5vh 0vw;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.9rem;
+}
+
+.company,
+.help,
+.faq,
+.resources {
+  flex: 1;
+}
+
+.company h4,
+.help h4,
+.faq h4,
+.resources h4 {
+  font-family: "Satoshi";
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.company ul,
+.help ul,
+.faq ul,
+.resources ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 0.8rem;
+  list-style-type: none;
+}
+
+.company ul li a,
+.help ul li a,
+.faq ul li a,
+.resources ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*Positioning stuff*/
+  position: relative;
+  /*Box model stuff*/
+  border: none;
+  /*Typography stuff*/
+  font-family: "Satoshi", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+
+  /*Miscellaneous*/
+  cursor: pointer;
+
+}
+
+.coppyRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 1vw 2vh 7vw;
+}
+
+.coppyRight p {
+  flex-basis: 73%;
+  /*Box model stuff*/
+  margin: 0;
+  /*Typography stuff*/
+  font-family: "Satoshi";
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.images {
+  flex-basis: 28%;
+  display: flex;
+  justify-content: flex-start;
+
+}
 
 
 
