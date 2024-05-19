@@ -55,12 +55,14 @@
         <span class="category-number">2,000+</span>
         <span class="category-name">High-Quality Products</span>
       </div>
-      <div class="vl"></div>
+      <div class="vl verline"></div>
       <div class="category">
         <span class="category-number">30,000+</span>
         <span class="category-name">Happy Customers</span>
       </div>
     </div>
+    <img src="assets\images\Rectangle 2.png" alt="image-hero" />
+
   </section>
   <section class="logo-banner">
     <a href="#"><img src="./assets/images/Group.png" alt="Versace" /></a>
@@ -76,6 +78,13 @@
       ProductListCard(document.querySelector('.new-arrivals'), 'NEW ARRIVALS', items)
     </script>
   </section>
+  </script>
+   <script>
+   
+  </script> 
+
+
+
   <hr class="section-divider ">
   <section class="top-selling">
     <script>
@@ -129,20 +138,26 @@
 
       });
     });
+    $(document).ready(function () {
+      $('.arrivals-items').slick({
+        slidesToShow: 2,
+
+      });
+    });
   </script>
-<section class="subscribe">
+  <section class="subscribe">
     <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
     <form id="subscribeForm">
       <div class="input-group">
-      <i class="fa-solid fa-envelope" id="envelope-icon"></i>
-      <input type="email" id="emailInput" placeholder="Enter your email address" required>
+        <i class="fa-solid fa-envelope" id="envelope-icon"></i>
+        <input type="email" id="emailInput" placeholder="Enter your email address" required>
 
       </div>
       <button type="submit">Subscribe to Newsletter</button>
-  </div>
-</section>
-<footer>
-  <div class="footer-container">
+      </div>
+  </section>
+  <footer>
+    <div class="footer-container">
       <div class="shopco">
         <h2>SHOP.CO</h2>
         <p>We have clothes that suits your style and which you're proud to wear. From women to men.</p>
@@ -152,57 +167,59 @@
           <img src="assets\images\3.svg" alt="social Icon">
           <img src="assets\images\4.svg" alt="social Icon">
         </div>
-        
+
       </div>
       <div class="company">
-          <h4>Company</h4>
-          <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">Career</a></li>
-          </ul>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Career</a></li>
+        </ul>
       </div>
       <div class="help">
-          <h4>Help</h4>
-          <ul>
-              <li><a href="#">Customer Support</a></li>
-              <li><a href="#">Delivery Details</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-          </ul>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Customer Support</a></li>
+          <li><a href="#">Delivery Details</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
       </div>
       <div class="faq">
-          <h4>FAQ</h4>
-          <ul>
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Manage Deliveries</a></li>
-              <li><a href="#">Orders</a></li>
-              <li><a href="#">Payments</a></li>
-          </ul>
+        <h4>FAQ</h4>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Manage Deliveries</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Payments</a></li>
+        </ul>
       </div>
       <div class="resources">
-          <h4>Resources</h4>
-          <ul>
-              <li><a href="#">Free eBooks</a></li>
-              <li><a href="#">Development Tutorial</a></li>
-              <li><a href="#">How to - Blog</a></li>
-              <li><a href="#">Youtube Playlist</a></li>
-          </ul>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Free eBooks</a></li>
+          <li><a href="#">Development Tutorial</a></li>
+          <li><a href="#">How to - Blog</a></li>
+          <li><a href="#">Youtube Playlist</a></li>
+        </ul>
       </div>
-  </div>
-  <hr class="section-divider">
-  <div class="coppyRight">
-  <p>Shop.co &copy; 2000-2023, All Rights Reserved</p>
-  <div class="images">
-    <img src="assets\images\Badge (6).svg" alt="Email Icon">
-    <img src="assets\images\Badge (1).svg" alt="Email Icon">
-    <img src="assets\images\Badge (2).svg" alt="Email Icon">
-    <img src="assets\images\Badge (3).svg" alt="Email Icon">
-    <img src="assets\images\Badge (4).svg" alt="Email Icon">
-  </div>
-</div>
-</footer>
+    </div>
+    <hr class="section-divider">
+    <div class="coppyRight">
+      <p>Shop.co &copy; 2000-2023, All Rights Reserved</p>
+      <div class="images">
+        <img src="assets\images\Badge (6).svg" alt="Email Icon">
+        <img src="assets\images\Badge (1).svg" alt="Email Icon">
+        <img src="assets\images\Badge (2).svg" alt="Email Icon">
+        <img src="assets\images\Badge (3).svg" alt="Email Icon">
+        <img src="assets\images\Badge (4).svg" alt="Email Icon">
+      </div>
+    </div>
+
+  </footer>
+
 
 </body>
 

@@ -258,6 +258,9 @@ nav ul li a {
   text-align: left;
   /*Miscellaneous*/
   line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+
+
 }
 
 .cta-btn {
@@ -352,7 +355,7 @@ nav ul li a {
   justify-content: space-between;
   /*Box model stuff*/
   padding: 0vh 6vw 0vh 3vw;
-  gap:1.3rem;
+  gap: 1.3rem;
 }
 
 .new-arrivals h2,
@@ -890,26 +893,269 @@ footer {
 
 
 
-/* Media queries for responsiveness */
 
-/* Adjust header padding and font sizes for smaller screens */
+/* Burger Menu Icon Styles */
+.burger-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+
+
+/* Burger Menu Styles */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  width: 8vw;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.burger-menu.active div:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active div:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active div:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.menu-items {
+  display: none;
+}
+
+#searchMobile {
+  display: none;
+}
+
+.hero img {
+  display: none;
+
+}
+
 @media screen and (max-width: 768px) {
   header {
-    padding: 3vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.1vh 1vw 2vh 1vw;
+    background-color: #fff;
+    color: #000;
+    gap: 2.3vw;
   }
 
   .logo {
-    font-size: 1.2rem;
+    font-family: "Integral CF", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    gap: 0px;
   }
 
-  nav ul li a {
-    font-size: 0.9rem;
-  }
-}
-
-/* Adjust search input width for smaller screens */
-@media screen and (max-width: 576px) {
   #search {
-    max-width: 90vw;
+    display: none;
+    flex: 1;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 2.4rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+
   }
+
+  #searchMobile {
+    display: flex;
+
+  }
+
+  #searchMobile.active {
+    flex: 1;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 2.4rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+
+  }
+
+  .icon-container.active {
+    flex: 1;
+  }
+
+  #inputMobile {
+    display: none;
+
+  }
+
+  #inputMobile.active {
+    display: flex;
+    flex: 1;
+    border: none;
+    border-radius: 2.4rem;
+    outline: none;
+    background-color: #f2f0f1;
+    font-size: 1rem;
+  }
+
+  .search-icon {
+    margin-right: 0;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .menu-items.active {
+    display: block;
+    background-color: #444;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .menu-items.active a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+
+    padding: 3vw;
+
+    background-image: none
+  }
+
+  .hero img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3vw;
+    background-color: #f2f0f1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero-text {
+    width: 80vw;
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-family: Integral CF;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    /* line-height: 64px; */
+  }
+
+  .hero p {
+    margin-bottom: 4.5vh;
+    font-family: Satoshi;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    padding: 2vh 33vw;
+    border-radius: 2.4rem;
+    background-color: #000;
+    font-family: "Satoshi";
+    font-size: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  .shop-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6vh;
+    gap: 8vw;
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .category-number {
+    FONT-WEIGHT: 700;
+    display: inline-block;
+    font-family: "Satoshi";
+    font-size: 1.3rem;
+  }
+
+  .category-name {
+    display: inline-block;
+    font-family: "Satoshi";
+    font-size: 0.8rem;
+    /* font-weight: bold; */
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .verline {
+    border: none;
+  }
+
+  .logo-banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    gap: 6vw;
+    padding: 6vh 3vw;
+  }
+
+  .logo-banner a img {
+    width: 27vw;
+    height: 4vh;
+
+  }
+
+  .new-arrivals h2, .top-selling h2, .dress-style h2 {
+    margin-bottom: 2vh;
+    font-family: "Integral CF", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 16.7vh;
+  }
+ 
 }
