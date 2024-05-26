@@ -1,0 +1,524 @@
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3.1vh 1vw 2vh 1vw;
+        background-color: #fff;
+        color: #000;
+        gap: 2.3vw;
+    }
+
+    .logo {
+        font-family: "Integral CF", Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 900;
+        text-align: left;
+        gap: 0px;
+    }
+
+    #search {
+        display: none;
+        flex: 1;
+        align-items: center;
+        padding: 1vh 1vw;
+        border-radius: 2.4rem;
+        background-color: #f0f0f0;
+        box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+
+    }
+
+    #searchMobile {
+        display: flex;
+
+    }
+
+    #searchMobile.active {
+        flex: 1;
+        align-items: center;
+        padding: 1vh 1vw;
+        border-radius: 2.4rem;
+        background-color: #f0f0f0;
+        box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+
+    }
+
+    .icon-container.active {
+        flex: 1;
+    }
+
+    #inputMobile {
+        display: none;
+
+    }
+
+    #inputMobile.active {
+        display: flex;
+        flex: 1;
+        border: none;
+        border-radius: 2.4rem;
+        outline: none;
+        background-color: #f2f0f1;
+        font-size: 1rem;
+    }
+
+    .search-icon {
+        margin-right: 0;
+    }
+
+    .logoContainer {
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .menu-items.active {
+        display: block;
+        background-color: #444;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu-items.active a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+
+        padding: 3vw;
+
+        background-image: none
+    }
+
+    .hero img {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 3vw;
+        background-color: #f2f0f1;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .hero-text {
+        width: 80vw;
+    }
+
+    .hero h1 {
+            font-size: 1.7rem;
+            line-height: 5vh;
+    }
+
+    .hero p {
+        font-size: 0.7rem;
+    }
+
+    .cta-btn {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .shop-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4vh;
+        gap: 4vw;
+    }
+
+    .category {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .category-number {
+        FONT-WEIGHT: 700;
+        display: inline-block;
+        font-family: "Satoshi";
+        font-size: 1.3rem;
+    }
+
+    .category-name {
+        display: inline-block;
+        font-family: "Satoshi";
+        font-size: 0.8rem;
+        /* font-weight: bold; */
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .verline {
+        border: none;
+    }
+
+    .logo-banner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #000;
+        gap: 6vw;
+        padding: 6vh 3vw;
+    }
+
+    .logo-banner a img {
+        width: 27vw;
+        height: 4vh;
+
+    }
+
+    .new-arrivals h2, .top-selling h2, .dress-style h2 {
+        margin-bottom: 2vh;
+        font-family: "Integral CF", sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 4vh;
+    }
+
+    .arrivals-items {
+        /*Display stuff*/
+        display: flex;
+        flex-wrap: nowrap;
+        /* justify-content: space-between; */
+        /*Box model stuff*/
+        padding: 0vh 6vw 0vh 3vw;
+        gap: 1.3rem;
+        width: 90vw;
+    }
+
+    .item img {
+        width: 38vw;
+        height: 27vh;
+        border-radius: 1.4rem;
+    }
+
+    .item p {
+        margin: 2vh 0vw 1.2vh 0vw;
+        font-family: "Satoshi";
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-align: left;
+        /* line-height: 4vh; */
+    }
+
+    .stars {
+        color: #ffc107;
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+
+    .rating-number {
+        font-family: "Satoshi", sans-serif;
+        font-size: 0.7rem;
+    }
+
+    .item .price-container .actual-price {
+        font-family: "Satoshi", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-align: center;
+        /* line-height: 2.2; */
+    }
+
+    .item .price-container .real-price {
+        font-family: "Satoshi", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: line-through;
+        color: #888;
+        /* line-height: 2.2; */
+    }
+
+    .item .price-container .reduction {
+        padding: 0.9vh 1vw;
+        border-radius: 2.4rem;
+        background-color: transparent;
+        font-size: 0.5rem;
+        color: #ff3333;
+    }
+
+    .view-all {
+        
+        padding: 2vh 38vw;
+        font-size: 0.7rem;
+    }
+
+    /*dress-style section*/
+    .dress-style {
+        /*Box model stuff*/
+        margin: 6.5vh 7vw;
+        padding: 1vh 4vw;
+        border-radius: 2rem;
+        background-color: #f0f0f0;
+    }
+
+    .dress-style-items {
+        /*Display stuff*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        /*Box model stuff*/
+        padding-top: 1vh;
+        /*Miscellaneous*/
+        row-gap: 3vh;
+    }
+
+    .dress-style-item {
+        /*Box model stuff*/
+        height: 25vh;
+        border-radius: 2rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dress-style-item h4 {
+        /*Box model stuff*/
+        margin: 3vh 3vw;
+        /*Typography stuff*/
+        font-family: "Satoshi";
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .casual {
+        flex-basis: auto;
+        background-image: url("../assets/images/image 11.png");
+    }
+
+    .formal {
+        flex-basis: auto;
+        background-image: url("../assets/images/image 13.png");
+    }
+
+    .party {
+        flex-basis: auto;
+        background-image: url("../assets/images/image 12.png");
+    }
+
+    .gym {
+        flex-basis: auto;
+        background-image: url("../assets/images/image 14.png");
+    }
+
+    .review h2 {
+        font-family: "Integral CF", sans-serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .arrows {
+        display: flex;
+    }
+
+    .buttonStyle {
+        display: inline-block;
+        margin-top: 2vh;
+        padding: 1vh 1vw;
+        border: none;
+        border-radius: 1rem;
+        background-color: #fff;
+        text-decoration: none;
+        color: #000;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .review-container {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        height: 23vh !important;
+        margin: 0vh 0.4vw;
+        padding: 2vh 2vw;
+        border: solid rgba(0, 0, 0, 0.1);
+        border-radius: 1.5rem;
+        /* width: 24vw !important; */
+    }
+
+    .reviewer {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 2vh 0;
+    }
+
+    .reviewer h4 {
+        margin: 0;
+        font-family: "Satoshi";
+        font-size: 1rem;
+        color: #000;
+    }
+
+    .checkmark {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        background-color: #01ab31;
+    }
+
+    .review p {
+        margin: 0;
+        font-family: "Satoshi";
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        padding: 0.7vh 4.2vw;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3vh 5.8vw 0vh 7vw;
+        position: relative;
+        z-index: 10;
+    }
+
+    .subscribe h2 {
+        font-family: "Integral CF", sans-serif;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 5.7vh;
+        /* margin-bottom: 6vh; */
+        /* flex-basis: 50%; */
+        /* text-align: left; */
+    }
+
+    #subscribeForm {
+        padding: 2vh 0vw;
+        display: flex;
+        flex-direction: column;
+        /* flex-basis: 21%; */
+    }
+
+    .input-group {
+        display: flex;
+        /* align-items: center; */
+        /* font-family: "Satoshi"; */
+        /* font-size: 1.3rem; */
+        padding: 1vh 2vw;
+        margin-bottom: 2vh;
+        border: solid #fff;
+        border-radius: 1.5rem;
+        height: 4vh;
+        width: 73vw;
+        background-color: #fff;
+        gap: 1vw;
+    }
+
+    #emailInput {
+        background-color: transparent;
+        border: none;
+        font-size: 0.8rem;
+    }
+
+    #subscribeForm button {
+        font-family: "Satoshi";
+        font-size: 0.8rem;
+        font-weight: 700;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        /* padding: 9px 17px; */
+        border-radius: 1.5rem;
+        cursor: pointer;
+        height: 7vh;
+    }
+
+    .shopco {
+        flex: auto;
+
+    }
+
+    .footer-container {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .shopco h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .shopco p {
+
+        font-size: 0.8rem;
+
+    }
+
+    .socialImages {
+        margin: 2vh 0vw;
+        gap: 0.4rem;
+    }
+
+    .company h4, .help h4, .faq h4, .resources h4 {
+        font-size: 0.8rem;
+        text-align: left;
+
+    }
+
+    .company ul, .help ul, .faq ul, .resources ul {
+        align-items: flex-start;
+    }
+
+    .company ul li a, .help ul li a, .faq ul li a, .resources ul li a {
+        font-size: 0.8rem;
+
+    }
+
+    .company, .help, .faq, .resources {
+        flex-basis: 48%;
+    }
+
+    .coppyRight {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8vh 5vw;
+    }
+
+    .coppyRight p {
+        font-size: 0.8rem;
+    }
+
+    .images {
+        align-items: center;
+        padding: 4vh 0vw;
+    }
+
+
+}
